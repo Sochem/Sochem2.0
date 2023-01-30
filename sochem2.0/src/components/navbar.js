@@ -8,22 +8,22 @@ export default function Navbar() {
           <Link href="/"> Home </Link>
         </li>
         <li>
-          <Link href="/events"> Events </Link>
+          <Link href="Events/Events"> Events </Link>
         </li>
         <li>
-          <Link href="/funds"> Funds </Link>
+          <Link href="Funds/Funds"> Funds </Link>
         </li>
         <li>
-          <Link href="/forum"> Forum </Link>
+          <Link href="Forum/Forum"> Forum </Link>
         </li>
         <li>
-          <Link href="/cloud"> Cloud </Link>
+          <Link href="Cloud/Cloud"> Cloud </Link>
         </li>
         <li>
-          <Link href="/family"> Family </Link>
+          <Link href="Family/Family"> Family </Link>
         </li>
         <li>
-          <Link href="/login"> Login </Link>
+          <Link href="Login/Login"> Login </Link>
         </li>
       </ul>
     </div>

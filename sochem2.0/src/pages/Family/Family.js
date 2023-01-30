@@ -1,5 +1,5 @@
 import Titlebar from "@/components/title";
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/Navbar";
 import { SectionTitle } from "@/components/section";
 
 export default function Family() {
