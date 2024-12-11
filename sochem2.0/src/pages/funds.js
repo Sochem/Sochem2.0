@@ -11,11 +11,17 @@ export default function Funds() {
   const router = useRouter();
   const [formValues, setFormValues] = useState("");
   const [screenshot, setScreenshot] = useState(null);
+  const [errors, setErrors] = useState({});
 
   const handleInput = (event) => {
     setFormValues({
       ...formValues,
       [event.target.name]: event.target.value,
+    });
+
+    setErrors({
+      ...errors,
+      [event.target.name]: "",
     });
   };
 
@@ -52,6 +58,27 @@ export default function Funds() {
     } catch (err) {
       console.log(err);
       toast.error("An error occurred!");
+    }
+  };
+
+  const validateField = (name, value) => {
+    if (name === "contact" && value.length !== 10) {
+      return "Please enter a valid 10-digit phone number";
+    }
+    if (name === "batch" && value.length !== 4) {
+      return "Batch year must be exactly 4 digits.";
+    }
+    return "";
+  };
+
+  const handleBlur = (event) => {
+    const { name, value } = event.target;
+    const errorMessage = validateField(name, value);
+    if (errorMessage) {
+      setErrors({
+        ...errors,
+        [name]: errorMessage,
+      });
     }
   };
 
@@ -101,14 +128,21 @@ export default function Funds() {
             </div>
             <div className="pb-5 justify-between flex">
               <label className="text-lg">Batch*</label>
-              <input
-                className="bg-slate-200 ring-1 rounded p-1 text-sm w-30 md:w-40 lg:w-56 xl:w-64"
-                placeholder="2000"
-                name="batch"
-                type="number"
-                onChange={(event) => handleInput(event)}
-                required
-              />
+              <div className="flex flex-col">
+                <input
+                  className="bg-slate-200 ring-1 rounded p-1 text-sm w-30 md:w-40 lg:w-56 xl:w-64"
+                  placeholder="2000"
+                  name="batch"
+                  type="number"
+                  value={formValues.batch || ""}
+                  onChange={(event) => handleInput(event)}
+                  onBlur={handleBlur}
+                  required
+                />
+                {errors.batch && (
+                  <p className="text-red-500 text-sm mt-1">{errors.batch}</p>
+                )}
+              </div>
             </div>
             <div className="pb-5 justify-between flex">
               <label className="text-lg">LinkedIn Profile* </label>
@@ -123,14 +157,21 @@ export default function Funds() {
             </div>
             <div className="pb-5 justify-between flex">
               <label className="text-lg">Contact No*</label>
-              <input
-                className="bg-slate-200 ring-1 rounded p-1 text-sm w-30 md:w-40 lg:w-56 xl:w-64"
-                placeholder="9999999999"
-                name="contact"
-                type="number"
-                onChange={(event) => handleInput(event)}
-                required
-              />
+              <div className="flex flex-col">
+                <input
+                  className="bg-slate-200 ring-1 rounded p-1 text-sm w-30 md:w-40 lg:w-56 xl:w-64"
+                  placeholder="9999999999"
+                  name="contact"
+                  type="number"
+                  value={formValues.contact || ""}
+                  onChange={(event) => handleInput(event)}
+                  onBlur={handleBlur}
+                  required
+                />
+                {errors.contact && (
+                  <p className="text-red-500 text-sm mt-1">{errors.contact}</p>
+                )}
+              </div>
             </div>
             <div className="pb-5 justify-between flex">
               <label className="text-lg">Current Company*</label>
