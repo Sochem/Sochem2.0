@@ -8,27 +8,39 @@
     },
     {
       "id": 2,
-      "name": "Devansh Mishra",
-      "designation": "Batch Of 2024",
-      "review": "“I feel SoChem is what that knits this huge department of ours together. At SoChem, we came together, had fun, learned, and grew”"
+      "name": "Shruti Yadav",
+      "designation": "Batch Of 2026",
+      "review": "SoChem is more than just a society —it feels like a family. One of the most amazing things about SoChem is how we come together to celebrate various festivals, creating a close-knit and inclusive community. Overall,it offers a well-rounded experience, blending fun, learning, and professional development."
     },
     {
       "id": 3,
-      "name": "Aditya Kumar Singh",
-      "designation": "Batch Of 2024",
-      "review": "“I feel SoChem is what that knits this huge department of ours together. At SoChem, we came together, had fun, learned, and grew”"
+      "name": "Sonali Singh",
+      "designation": "Batch Of 2026",
+      "review": "SoChem unites us with shared experiences, inspiring personal and academic growth. It’s a vibrant hub for connections, collaboration, and fun-filled events that enrich our journey, creating unforgettable memories and meaningful moments at every step."
+    },
+    {
+      "id": 3,
+      "name": "Suhani Singh",
+      "designation": "Batch Of 2026",
+      "review": "I’m thrilled to be part of a team that embraces creativity and collaboration, making every day at Sochem enjoyable. Together, we achieve great results while having fun!"
+    },
+    {
+      "id": 3,
+      "name": "Ghanishtha Chaware",
+      "designation": "Batch Of 2026",
+      "review": "SoChem is the thread that brings our department together. It includes making connection with amazing people, learning, growing, and sharing unforgettable moments. It’s where we truly feel like a family."
     },
     {
       "id": 4,
-      "name": "Akshun Mishra",
-      "designation": "Batch Of 2025",
-      "review": "“I feel SoChem is what that knits this huge department of ours together. At SoChem, we came together, had fun, learned, and grew”"
+      "name": "Ankit Pradhan ",
+      "designation": "Batch Of 2027",
+      "review": "Joining the Society of Chemical Engineers (Sochem) was pivotal during my first semester. Even after switching to Electrical Engineering, the support and guidance I received helped me navigate my branch change confidently. Sochem’s events foster camaraderie and teamwork, enriching my experience. I value the network and resources that will aid my future placements and internships. I’m proud to remain a member and look forward to staying connected with this supportive community."
     },
     {
       "id": 5,
-      "name": "Devansh Choudhary",
-      "designation": "Batch Of 2025",
-      "review": "“I feel SoChem is what that knits this huge department of ours together. At SoChem, we came together, had fun, learned, and grew”"
+      "name": "Ankit Kumar",
+      "designation": "Batch Of 2027",
+      "review": "My time with the Society of Chemical Engineers (Sochem) during my first semester was incredibly impactful. Although I transitioned to Electrical Engineering, the mentorship and resources from Sochem were instrumental in helping me adjust. The engaging sessions and senior interactions made a significant difference in my journey. Additionally, the sports events organized by Sochem promote a wonderful team spirit. I’m excited to remain a member and continue benefiting from this supportive network as I prepare for internships and placements."
     }
   ],
   "eventsCarousel": [
@@ -53,7 +65,7 @@
       "url": "/images/funds1.png"
     },
     {
-      "url": "/images/funds2.png"
+      "url": "/images/funds3.png"
     }
   ],
   "navbarElements": [
