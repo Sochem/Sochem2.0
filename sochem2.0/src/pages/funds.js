@@ -69,7 +69,7 @@ export default function Funds() {
               ></input>
             </div>
             <div className="pb-5 justify-between flex">
-              <label class="text-lg">Name* </label>
+              <label className="text-lg">Name* </label>
               <input
                 className="bg-slate-200 ring-1 rounded p-1 text-sm w-30 md:w-40 lg:w-56 xl:w-64"
                 placeholder="Ethan Hunt" name="name"
