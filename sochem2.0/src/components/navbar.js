@@ -37,16 +37,16 @@ export default function Navbar() {
     <div className="px-6 py-6 lg:px-8">
       <nav className="flex items-center justify-start" aria-label="Global">
         <div className="flex lg:flex-1">
-          <a href="/" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5 flex">
             <span className="sr-only">Your Company</span>
             <img className="h-18" src="/images/sochem_logo.svg" alt="" />
+            <div className="pl-4 ">
+              <span className="text-[#2A6BFF] text-xl font-medium">Sochem</span>
+              <p className="text-l font-medium leading-6 text-white">
+                IIT (BHU) Varanasi
+              </p>
+            </div>
           </a>
-          <div className="pl-4 ">
-            <span className="text-[#2A6BFF] text-xl font-medium">Sochem</span>
-            <p className="text-l font-medium leading-6 text-white">
-              IIT (BHU) Varanasi
-            </p>
-          </div>
         </div>
         <div className="flex lg:hidden">
           <button
