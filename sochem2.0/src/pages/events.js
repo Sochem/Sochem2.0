@@ -1,27 +1,32 @@
 import React from "react";
-import EventsCarousel from "../components/eventsCarousel";
 import Navbar from "@/components/navbar";
 import SearchBar from "@/components/searchBar";
 import EventsCard from "@/components/eventsCard";
-import data from "../../data/data.json";
+import eventImg from "../../data/eventImg.json"; 
 
 const events = () => {
   return (
-    <div>
-      <div className="bg-[#040D21] w-full ">
-        <Navbar />
+    <div className="bg-black min-h-screen text-white">
+      <Navbar />
+      <div className="bg-[#040D21] w-full">
         <p className="font-medium flex text-[#F7FAFF] justify-center text-2xl sm:text-3xl lg:text-5xl">
-          <span className="mt-20">
+          <span className="mt-10">
             A Collection of <span className="text-[#2A6BFF]">Nostalgic</span>
             Events!
           </span>
         </p>
-        <EventsCarousel />
       </div>
+
       <SearchBar />
-      <div className="grid-cols-1 sm:grid-cols-2 grid m-auto justify-center lg:grid-cols-2 p-4 gap-4 auto-cols-max ">
-        {data.eventsCard.map((i) => (
-          <EventsCard key={i.id} title={i.title} description={i.description} />
+
+      <div className="flex flex-col items-center p-4 gap-8">
+        {eventImg.eventImg.map((i) => (
+          <EventsCard
+            key={i.id}
+            title={i.name}
+            images={i.images}
+            description={i.description} 
+          />
         ))}
       </div>
     </div>
