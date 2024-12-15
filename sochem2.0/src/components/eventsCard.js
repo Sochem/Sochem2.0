@@ -68,7 +68,7 @@ const EventsCard = ({ title, images }) => {
 
       {isModalOpen && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 z-50">
-          <div className="bg-black border border-white rounded-lg w-[40rem] h-[23rem] flex flex-col items-center relative">
+          <div className="bg-black border border-white rounded-lg w-[40rem] h-[24rem] flex flex-col items-center relative">
             <h2 className="text-white text-2xl font-bold absolute top-4">{activeHeading}</h2>
             <p className="text-white text-xl text-left px-4 mt-16 mb-16">{activeDescription}</p>
             <button
