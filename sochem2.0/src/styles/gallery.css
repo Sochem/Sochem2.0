@@ -1,33 +1,32 @@
 body {
-    background-color: #040D21;
-    color: white;
-    font-family: 'Poppins', sans-serif !important; 
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1 {
-    text-align: center;
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
-    color: white;
-  }
-  
-  .gallery-folder h2 {
-    text-align: center;
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: white;
-    margin-bottom: 1rem;
-  }
-  
-  .gallery-container {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
+  background-color: #040D21;
+  color: white;
+  font-family: 'Poppins', sans-serif !important; 
+  margin: 0;
+  padding: 0;
+}
 
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.gallery-folder h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
 
 .gallery-images {
   display: flex;
@@ -58,9 +57,10 @@ body {
 }
 
 .gallery-item img {
-  max-height: 300px;
-  max-width: 450px;
-  height: auto;
+  max-height: 300px;     
+  width: auto;            
+  height: 100%;          
+  object-fit: cover;      
   display: block;
   border-radius: 5px;
   cursor: pointer;
@@ -100,30 +100,31 @@ body {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 2.5rem;
+      font-size: 2.5rem;
   }
 
   .gallery-folder h2 {
-    font-size: 1.5rem;
+      font-size: 1.5rem;
   }
 
   .gallery-item img {
-    max-height: 200px;
-    max-width: 300px;
+      max-height: 200px;
+      max-width: 300px;
   }
 }
 
 @media (max-width: 480px) {
   h1 {
-    font-size: 2rem;
+      font-size: 2rem;
   }
 
   .gallery-folder h2 {
-    font-size: 1.2rem;
+      font-size: 1.2rem;
   }
 
   .gallery-item img {
-    max-height: 150px;
-    max-width: 250px;
+      max-height: 150px;
+      max-width: 250px;
   }
 }
+
