@@ -89,6 +89,11 @@
                     "src": "/images/wscompetitions/IMG-20241208-WA0023.jpg",
                     "heading": "SDE Session",
                     "description": "That's a wrap on the SDE Session! A heartfelt thanks to our seniors for sharing their valuable experience and guidance. Here's to unlocking opportunities and pursuing excellence in software development. #SDESession #SoChemJourney"
+                },
+                {
+                    "src": "/images/others/IMG-20241208-WA0008.jpg",
+                    "heading": "IPL Auction",
+                    "description": "Throwing it back to the excitement of SoChem’s IPL Auction—a thrilling bidding war where strategy, competition, and camaraderie collided! 🏏💥 The room was alive with energy as teams battled it out to build their dream squads. From intense rivalries to unexpected steals, every bid kept us on the edge of our seats. 💸🔥 It wasn’t just about cricket but also teamwork, planning, and the fun of friendly competition. Cheers to the unforgettable moments and the spirit of sportsmanship that made this event a smashing success! 🌟🏆 #IPLStyleAuction #BiddingWar #CricketCraze #TeamSpirit"
                 }
             ]
         },
@@ -105,12 +110,8 @@
                     "src": "/images/festivals/IMG-20241208-WA0024.jpg",
                     "heading": "Diwali",
                     "description": "Throwback to Sochem’s Diwali celebration, a night filled with warmth, laughter, and endless joy! ✨ From twinkling lights to vibrant rangolis, the spirit of togetherness lit up every corner. The aroma of delicious sweets and the sound of cheerful banter created unforgettable memories. Here's to reliving the magic of diyas, traditions, and sparkling moments with loved ones. 🌸🪔🌟 #ThrowbackDiwali #FestivalOfLights #DiwaliVibes"
-                },
-                {
-                    "src": "/images/others/IMG-20241208-WA0008.jpg",
-                    "heading": "IPL Auction",
-                    "description": "Throwing it back to the excitement of SoChem’s IPL Auction—a thrilling bidding war where strategy, competition, and camaraderie collided! 🏏💥 The room was alive with energy as teams battled it out to build their dream squads. From intense rivalries to unexpected steals, every bid kept us on the edge of our seats. 💸🔥 It wasn’t just about cricket but also teamwork, planning, and the fun of friendly competition. Cheers to the unforgettable moments and the spirit of sportsmanship that made this event a smashing success! 🌟🏆 #IPLStyleAuction #BiddingWar #CricketCraze #TeamSpirit"
                 }
+                
             ]
         }
     ]
