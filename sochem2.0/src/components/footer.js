@@ -100,7 +100,7 @@ const footer = () => {
                 <ul className="space-y-4 text-l">
                   <li>
                     <a
-                      href="#"
+                      href="/"
                       className="text-[#0569FF] transition hover:opacity-75 dark:text-gray-200"
                     >
                       Home
@@ -109,7 +109,7 @@ const footer = () => {
 
                   <li>
                     <a
-                      href="#"
+                      href="/events"
                       className="text-[#0569FF] transition hover:opacity-75 dark:text-gray-200"
                     >
                       Events
@@ -118,7 +118,7 @@ const footer = () => {
 
                   <li>
                     <a
-                      href="#"
+                      href="/funds"
                       className="text-[#0569FF] transition hover:opacity-75 dark:text-gray-200"
                     >
                       Funds
@@ -127,7 +127,7 @@ const footer = () => {
 
                   <li>
                     <a
-                      href="#"
+                      href="/gallery"
                       className="text-[#0569FF] transition hover:opacity-75 dark:text-gray-200"
                     >
                       Gallery
@@ -136,7 +136,7 @@ const footer = () => {
 
                   <li>
                     <a
-                      href="#"
+                      href="/cloud"
                       className="text-[#0569FF] transition hover:opacity-75 dark:text-gray-200"
                     >
                       Cloud
@@ -145,7 +145,7 @@ const footer = () => {
 
                   <li>
                     <a
-                      href="#"
+                      href="/family"
                       className="text-[#0569FF] transition hover:opacity-75 dark:text-gray-200"
                     >
                       Family
